@@ -112,25 +112,64 @@
 // console.log("e");
 // console.log("v");
 
-function nameSplitter() {
+// function nameSplitter() {
 
-    console.log("v");
-    console.log("a");
-    console.log("s");
-    console.log("u");
-    console.log("d");
-    console.log("e");
-    console.log("v");
-
-}
+//     console.log("v");
+//     console.log("a");
+//     console.log("s");
+//     console.log("u");
+//     console.log("d");
+//     console.log("e");
+//     console.log("v");
+// }
 // nameSplitter()
 
 
-function addTwoNumber(number1, number2) {
-    let result = number1 + number2
-    console.log("vasudev");
-    return result
-}
+// function addTwoNumber(number1, number2) {
+// let result = number1 + number2
+//     console.log("vasudev");
+//     return number1 + number2
+// }
 
-const result = addTwoNumber(3, 9)
-console.log("result:", result);
+// const result = addTwoNumber(3, 9)
+// console.log("result:", result);
+
+// function loginUserMessage(username) {
+//     if (username === undefined) {
+//         console.log("enter a username")
+//         return
+
+//     }
+
+//     return `${username} just logged in.`
+// }
+
+// console.log(loginUserMessage("aditya"))
+
+// =====================================================================================================
+
+// const user = {
+//     product: "toyCar",
+//     price: 999
+
+// }
+// function bill(anyObject) {
+//     console.log(`${anyObject.product} is the product and its price is ₹${anyObject.price} only.`)
+
+// }
+// bill(user)
+// ==========
+// bill({
+//     product: "toyGun",
+//     price: 1199
+// })
+
+// ===========================================================================================================
+
+
+// const newArr = [100, 200, 300, 400, 500]
+// function returnValue(getArr) {
+//     return getArr[2]
+// }
+// console.log(returnValue(newArr));
+// console.log(returnValue([100, 200, 300, 400, 500]));
